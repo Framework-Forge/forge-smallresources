@@ -1,0 +1,130 @@
+{
+  "common": {
+    "notify_title": "Forge Core"
+  },
+  "error": {
+    "canceled": "Ação cancelada.",
+    "deleted_recording": "Gravação excluída.",
+    "later_aligator": "Até mais!",
+    "no_vehicle_nearby": "Nenhum veículo próximo para desvirar.",
+    "is_handcuffed": "Você está algemado.",
+    "is_fastened": "Você está usando o cinto de segurança.",
+    "vehicle_radio_off": "Rádio do veículo desligado."
+  },
+  "success": {
+    "started_recording": "Gravação iniciada.",
+    "stopped_recording": "Gravação interrompida.",
+    "saved_recording": "Gravação salva.",
+    "flipped_car": "Veículo desvirado com sucesso.",
+    "vehicle_radio_on": "Rádio do veículo ligado."
+  },
+  "progress": {
+    "flipping_car": "Desvirando o veículo..."
+  },
+  "info": {
+    "shuffleSeat": "Forge Core - Trocar de assento",
+    "teleport_level_select": "Ir para o andar %s",
+    "teleport_current_level_indication": "(andar atual)"
+  },
+  "keybind": {
+    "crouch": "Forge Core - Agachar",
+    "tackle": "Forge Core - Derrubar jogador",
+    "teleport": "Forge Core - Interagir com elevador",
+    "push_action": "Forge Core - Empurrar veículo (ação)",
+    "push_modifier": "Forge Core - Empurrar veículo (modificador)",
+    "vehicle_radio": "Forge Core - Alternar rádio do veículo"
+  },
+  "static_emitters": {
+    "title": "Emissores de áudio estáticos",
+    "game_build": "Versão do jogo: %s",
+    "disabled": "desativado",
+    "enabled": "ativado"
+  },
+  "teleports": {
+    "labs_elevator": "Elevador do laboratório",
+    "coke_processing": "Processamento de cocaína",
+    "default": "Elevador"
+  },
+  "safezones": {
+    "invalid_file": "O arquivo de zonas e invalido e nao foi carregado.",
+    "command_help": "Gerenciar safezones e redzones",
+    "enter_redzone": "Voce entrou na redzone %s.",
+    "enter_safezone": "Voce entrou na safezone %s.",
+    "sync_failed": "Nao foi possivel sincronizar as zonas.",
+    "no_permission": "Voce nao possui permissao para gerenciar zonas.",
+    "invalid_name": "Informe um nome valido para a zona.",
+    "invalid_coords": "A posicao da zona e invalida.",
+    "not_found": "A zona selecionada nao existe mais.",
+    "save_failed": "Nao foi possivel salvar a zona.",
+    "field_type": "Tipo da zona",
+    "type_safezone": "Safezone",
+    "type_redzone": "Redzone",
+    "field_name": "Nome da zona",
+    "field_radius": "Raio da zona (metros)",
+    "field_message": "Mensagem ao entrar",
+    "field_disable_weapons": "Nao permitir armas",
+    "field_disable_aggression": "Desativar agressoes",
+    "field_disable_running": "Desativar corrida",
+    "field_stress": "Alterar stress",
+    "field_stress_amount": "Quantidade de stress por intervalo",
+    "field_stress_interval": "Intervalo do stress (segundos)",
+    "field_notify": "Exibir aviso ao entrar",
+    "field_active": "Zona ativa",
+    "field_move_here": "Mover a zona para minha posicao atual",
+    "edit_title": "Editar zona: %s",
+    "create_title": "Criar zona",
+    "updated": "Zona %s atualizada.",
+    "created": "Zona %s criada.",
+    "delete_title": "Excluir zona",
+    "delete_confirm": "Deseja excluir permanentemente a zona %s?",
+    "deleted": "Zona %s excluida.",
+    "enabled": "ativa",
+    "disabled": "inativa",
+    "edit_action": "Editar zona",
+    "edit_description": "Altere a posicao, o raio e os comportamentos.",
+    "delete_action": "Excluir zona",
+    "delete_description": "Remove esta zona permanentemente.",
+    "create_action": "Criar nova zona",
+    "create_description": "Cria uma safezone ou redzone na sua posicao atual.",
+    "manager_title": "Safezones e redzones",
+    "search_placeholder": "Buscar zona...",
+    "field_thickness": "Altura/espessura do poligono (metros)",
+    "field_debug": "Depuracao individual da zona propria",
+    "debug_menu": "Depuracao visual",
+    "debug_menu_description": "Controle o desenho das zonas apenas na sua tela de administrador.",
+    "debug_all": "Mostrar todas as zonas (inclui APIs)",
+    "debug_all_description": "Mostra safezones e redzones, inclusive externas. Desmarcar oculta todas.",
+    "debug_hide_all": "Ocultar todas as zonas",
+    "debug_hide_description": "Desliga o desenho global e limpa sua selecao individual, sem desativar as zonas.",
+    "debug_individual_description": "Mostra ou oculta esta zona propria no modo individual. Zonas de API nao entram nesta selecao.",
+    "debug_field_description": "Preferencia inicial quando debugMode='individual'. Alterar tambem ajusta sua visualizacao atual.",
+    "debug_api_only": "Zonas criadas pela API so aparecem na depuracao global.",
+    "shape_poly": "PolyZone (poligono)",
+    "field_points_description": "Use uma lista JSON com x, y e z. Exemplo: [{\"x\":0,\"y\":0,\"z\":0},{\"x\":5,\"y\":0,\"z\":0},{\"x\":5,\"y\":5,\"z\":0}]",
+    "shape_sphere": "SphereZone (esfera)",
+    "field_points": "Pontos do poligono (JSON)",
+    "invalid_points": "O poligono deve possuir entre 3 e 64 pontos validos.",
+    "create_shape_title": "Criar zona: %s",
+    "field_stress_amount_description": "Valor positivo aumenta; valor negativo reduz o stress.",
+    "field_shape": "Formato da zona",
+    "points_summary": "%s pontos",
+    "zone_summary": "Formato: %s | %s | Estado: %s",
+    "radius_summary": "Raio: %sm",
+    "list_description": "%s | %s | %s",
+    "creator_cancelled": "Criacao da zona cancelada.",
+    "creator_description": "Abre o editor 3D para definir novamente a geometria desta zona.",
+    "creator_action": "Redesenhar no modo criador",
+    "creator_unavailable": "O modo criador de zonas nao esta disponivel."
+  },
+  "tire_slash": {
+    "label": "Rasgar pneu",
+    "progress": "Rasgando pneu...",
+    "success": "Pneu rasgado.",
+    "canceled": "Ação cancelada.",
+    "unavailable": "Aproxime-se de um pneu intacto de um veículo parado, com uma arma cortante permitida empunhada.",
+    "sync_failed": "Não foi possível rasgar o pneu. Tente novamente."
+  },
+  "debug": {
+    "entity_blacklist_invalid": "A lista de entidades bloqueadas não é uma tabela válida."
+  }
+}

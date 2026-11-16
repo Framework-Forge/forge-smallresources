@@ -1,0 +1,130 @@
+{
+  "common": {
+    "notify_title": "Forge Core"
+  },
+  "error": {
+    "canceled": "Action canceled.",
+    "deleted_recording": "Recording deleted.",
+    "later_aligator": "See you later!",
+    "no_vehicle_nearby": "No nearby vehicle to flip.",
+    "is_handcuffed": "You are handcuffed.",
+    "is_fastened": "You are wearing a seat belt.",
+    "vehicle_radio_off": "Vehicle radio turned off."
+  },
+  "success": {
+    "started_recording": "Recording started.",
+    "stopped_recording": "Recording stopped.",
+    "saved_recording": "Recording saved.",
+    "flipped_car": "Vehicle flipped successfully.",
+    "vehicle_radio_on": "Vehicle radio turned on."
+  },
+  "progress": {
+    "flipping_car": "Flipping the vehicle..."
+  },
+  "info": {
+    "shuffleSeat": "Forge Core - Change seat",
+    "teleport_level_select": "Go to floor %s",
+    "teleport_current_level_indication": "(current floor)"
+  },
+  "keybind": {
+    "crouch": "Forge Core - Crouch",
+    "tackle": "Forge Core - Tackle player",
+    "teleport": "Forge Core - Use elevator",
+    "push_action": "Forge Core - Push vehicle (action)",
+    "push_modifier": "Forge Core - Push vehicle (modifier)",
+    "vehicle_radio": "Forge Core - Toggle vehicle radio"
+  },
+  "static_emitters": {
+    "title": "Static audio emitters",
+    "game_build": "Game build: %s",
+    "disabled": "disabled",
+    "enabled": "enabled"
+  },
+  "teleports": {
+    "labs_elevator": "Laboratory elevator",
+    "coke_processing": "Cocaine processing",
+    "default": "Elevator"
+  },
+  "safezones": {
+    "invalid_file": "The zone file is invalid and was not loaded.",
+    "command_help": "Manage safezones and redzones",
+    "enter_redzone": "You entered the %s redzone.",
+    "enter_safezone": "You entered the %s safezone.",
+    "sync_failed": "The zones could not be synchronized.",
+    "no_permission": "You do not have permission to manage zones.",
+    "invalid_name": "Enter a valid zone name.",
+    "invalid_coords": "The zone position is invalid.",
+    "not_found": "The selected zone no longer exists.",
+    "save_failed": "The zone could not be saved.",
+    "field_type": "Zone type",
+    "type_safezone": "Safezone",
+    "type_redzone": "Redzone",
+    "field_name": "Zone name",
+    "field_radius": "Zone radius (meters)",
+    "field_message": "Entry message",
+    "field_disable_weapons": "Disallow weapons",
+    "field_disable_aggression": "Disable aggression",
+    "field_disable_running": "Disable running",
+    "field_stress": "Change stress",
+    "field_stress_amount": "Stress amount per interval",
+    "field_stress_interval": "Stress interval (seconds)",
+    "field_notify": "Show entry warning",
+    "field_active": "Active zone",
+    "field_move_here": "Move zone to my current position",
+    "edit_title": "Edit zone: %s",
+    "create_title": "Create zone",
+    "updated": "Zone %s updated.",
+    "created": "Zone %s created.",
+    "delete_title": "Delete zone",
+    "delete_confirm": "Permanently delete zone %s?",
+    "deleted": "Zone %s deleted.",
+    "enabled": "active",
+    "disabled": "inactive",
+    "edit_action": "Edit zone",
+    "edit_description": "Change its position, radius and behaviors.",
+    "delete_action": "Delete zone",
+    "delete_description": "Permanently removes this zone.",
+    "create_action": "Create new zone",
+    "create_description": "Creates a safezone or redzone at your current position.",
+    "manager_title": "Safezones and redzones",
+    "search_placeholder": "Search zone...",
+    "field_thickness": "Polygon height/thickness (meters)",
+    "field_debug": "Individual debug for a managed zone",
+    "debug_menu": "Visual debugging",
+    "debug_menu_description": "Control zone drawings only on your administrator screen.",
+    "debug_all": "Show all zones (includes APIs)",
+    "debug_all_description": "Shows safezones and redzones, including external zones. Uncheck to hide all.",
+    "debug_hide_all": "Hide all zones",
+    "debug_hide_description": "Disables global drawing and clears your individual selection without disabling zones.",
+    "debug_individual_description": "Show or hide this managed zone in individual mode. API zones are excluded from this selection.",
+    "debug_field_description": "Initial preference when debugMode='individual'. Changes also update your current view.",
+    "debug_api_only": "Zones created through the API only appear in global debugging.",
+    "shape_poly": "PolyZone (polygon)",
+    "field_points_description": "Use a JSON list with x, y and z. Example: [{\"x\":0,\"y\":0,\"z\":0},{\"x\":5,\"y\":0,\"z\":0},{\"x\":5,\"y\":5,\"z\":0}]",
+    "shape_sphere": "SphereZone (sphere)",
+    "field_points": "Polygon points (JSON)",
+    "invalid_points": "The polygon must contain between 3 and 64 valid points.",
+    "create_shape_title": "Create zone: %s",
+    "field_stress_amount_description": "A positive value increases stress; a negative value reduces it.",
+    "field_shape": "Zone shape",
+    "points_summary": "%s points",
+    "zone_summary": "Shape: %s | %s | Status: %s",
+    "radius_summary": "Radius: %sm",
+    "list_description": "%s | %s | %s",
+    "creator_cancelled": "Zone creation cancelled.",
+    "creator_description": "Opens the 3D editor to redefine this zone geometry.",
+    "creator_action": "Redraw in creator mode",
+    "creator_unavailable": "The zone creator mode is unavailable."
+  },
+  "tire_slash": {
+    "label": "Slash tire",
+    "progress": "Slashing tire...",
+    "success": "Tire slashed.",
+    "canceled": "Action canceled.",
+    "unavailable": "Approach an intact tire on a stationary vehicle while holding an allowed sharp weapon.",
+    "sync_failed": "The tire could not be slashed. Try again."
+  },
+  "debug": {
+    "entity_blacklist_invalid": "The blocked entity list is not a valid table."
+  }
+}

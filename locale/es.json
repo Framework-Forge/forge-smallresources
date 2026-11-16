@@ -1,0 +1,130 @@
+{
+  "common": {
+    "notify_title": "Forge Core"
+  },
+  "error": {
+    "canceled": "Acción cancelada.",
+    "deleted_recording": "Grabación eliminada.",
+    "later_aligator": "¡Hasta luego!",
+    "no_vehicle_nearby": "No hay ningún vehículo cercano para voltear.",
+    "is_handcuffed": "Estás esposado.",
+    "is_fastened": "Llevas puesto el cinturón de seguridad.",
+    "vehicle_radio_off": "Radio del vehículo apagada."
+  },
+  "success": {
+    "started_recording": "Grabación iniciada.",
+    "stopped_recording": "Grabación detenida.",
+    "saved_recording": "Grabación guardada.",
+    "flipped_car": "Vehículo volteado correctamente.",
+    "vehicle_radio_on": "Radio del vehículo encendida."
+  },
+  "progress": {
+    "flipping_car": "Volteando el vehículo..."
+  },
+  "info": {
+    "shuffleSeat": "Forge Core - Cambiar de asiento",
+    "teleport_level_select": "Ir al piso %s",
+    "teleport_current_level_indication": "(piso actual)"
+  },
+  "keybind": {
+    "crouch": "Forge Core - Agacharse",
+    "tackle": "Forge Core - Derribar jugador",
+    "teleport": "Forge Core - Usar el ascensor",
+    "push_action": "Forge Core - Empujar vehículo (acción)",
+    "push_modifier": "Forge Core - Empujar vehículo (modificador)",
+    "vehicle_radio": "Forge Core - Alternar la radio del vehículo"
+  },
+  "static_emitters": {
+    "title": "Emisores de audio estáticos",
+    "game_build": "Versión del juego: %s",
+    "disabled": "desactivado",
+    "enabled": "activado"
+  },
+  "teleports": {
+    "labs_elevator": "Ascensor del laboratorio",
+    "coke_processing": "Procesamiento de cocaína",
+    "default": "Ascensor"
+  },
+  "safezones": {
+    "invalid_file": "El archivo de zonas no es valido y no fue cargado.",
+    "command_help": "Gestionar safezones y redzones",
+    "enter_redzone": "Entraste en la redzone %s.",
+    "enter_safezone": "Entraste en la safezone %s.",
+    "sync_failed": "No se pudieron sincronizar las zonas.",
+    "no_permission": "No tienes permiso para gestionar zonas.",
+    "invalid_name": "Ingresa un nombre valido para la zona.",
+    "invalid_coords": "La posicion de la zona no es valida.",
+    "not_found": "La zona seleccionada ya no existe.",
+    "save_failed": "No se pudo guardar la zona.",
+    "field_type": "Tipo de zona",
+    "type_safezone": "Safezone",
+    "type_redzone": "Redzone",
+    "field_name": "Nombre de la zona",
+    "field_radius": "Radio de la zona (metros)",
+    "field_message": "Mensaje al entrar",
+    "field_disable_weapons": "No permitir armas",
+    "field_disable_aggression": "Desactivar agresiones",
+    "field_disable_running": "Desactivar correr",
+    "field_stress": "Cambiar estres",
+    "field_stress_amount": "Cantidad de estres por intervalo",
+    "field_stress_interval": "Intervalo del estres (segundos)",
+    "field_notify": "Mostrar aviso al entrar",
+    "field_active": "Zona activa",
+    "field_move_here": "Mover la zona a mi posicion actual",
+    "edit_title": "Editar zona: %s",
+    "create_title": "Crear zona",
+    "updated": "Zona %s actualizada.",
+    "created": "Zona %s creada.",
+    "delete_title": "Eliminar zona",
+    "delete_confirm": "Eliminar permanentemente la zona %s?",
+    "deleted": "Zona %s eliminada.",
+    "enabled": "activa",
+    "disabled": "inactiva",
+    "edit_action": "Editar zona",
+    "edit_description": "Cambia la posicion, el radio y los comportamientos.",
+    "delete_action": "Eliminar zona",
+    "delete_description": "Elimina esta zona permanentemente.",
+    "create_action": "Crear nueva zona",
+    "create_description": "Crea una safezone o redzone en tu posicion actual.",
+    "manager_title": "Safezones y redzones",
+    "search_placeholder": "Buscar zona...",
+    "field_thickness": "Altura/espesor del poligono (metros)",
+    "field_debug": "Depuracion individual de la zona propia",
+    "debug_menu": "Depuracion visual",
+    "debug_menu_description": "Controla los dibujos de zonas solo en tu pantalla de administrador.",
+    "debug_all": "Mostrar todas las zonas (incluye APIs)",
+    "debug_all_description": "Muestra safezones y redzones, incluidas las externas. Desmarca para ocultar todas.",
+    "debug_hide_all": "Ocultar todas las zonas",
+    "debug_hide_description": "Desactiva el dibujo global y borra tu seleccion individual sin desactivar las zonas.",
+    "debug_individual_description": "Muestra u oculta esta zona propia en modo individual. Las zonas de API quedan excluidas.",
+    "debug_field_description": "Preferencia inicial con debugMode='individual'. Los cambios tambien actualizan tu vista actual.",
+    "debug_api_only": "Las zonas creadas por API solo aparecen en la depuracion global.",
+    "shape_poly": "PolyZone (poligono)",
+    "field_points_description": "Usa una lista JSON con x, y y z. Ejemplo: [{\"x\":0,\"y\":0,\"z\":0},{\"x\":5,\"y\":0,\"z\":0},{\"x\":5,\"y\":5,\"z\":0}]",
+    "shape_sphere": "SphereZone (esfera)",
+    "field_points": "Puntos del poligono (JSON)",
+    "invalid_points": "El poligono debe contener entre 3 y 64 puntos validos.",
+    "create_shape_title": "Crear zona: %s",
+    "field_stress_amount_description": "Un valor positivo aumenta el estres; uno negativo lo reduce.",
+    "field_shape": "Forma de la zona",
+    "points_summary": "%s puntos",
+    "zone_summary": "Forma: %s | %s | Estado: %s",
+    "radius_summary": "Radio: %sm",
+    "list_description": "%s | %s | %s",
+    "creator_cancelled": "Creacion de zona cancelada.",
+    "creator_description": "Abre el editor 3D para redefinir la geometria de esta zona.",
+    "creator_action": "Redibujar en modo creador",
+    "creator_unavailable": "El modo creador de zonas no esta disponible."
+  },
+  "tire_slash": {
+    "label": "Rajar neumático",
+    "progress": "Rajando neumático...",
+    "success": "Neumático rajado.",
+    "canceled": "Acción cancelada.",
+    "unavailable": "Acércate a un neumático intacto de un vehículo detenido con un arma cortante permitida en la mano.",
+    "sync_failed": "No se pudo rajar el neumático. Inténtalo de nuevo."
+  },
+  "debug": {
+    "entity_blacklist_invalid": "La lista de entidades bloqueadas no es una tabla válida."
+  }
+}

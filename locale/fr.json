@@ -1,0 +1,130 @@
+{
+  "common": {
+    "notify_title": "Forge Core"
+  },
+  "error": {
+    "canceled": "Action annulée.",
+    "deleted_recording": "Enregistrement supprimé.",
+    "later_aligator": "À bientôt !",
+    "no_vehicle_nearby": "Aucun véhicule à proximité à redresser.",
+    "is_handcuffed": "Vous êtes menotté.",
+    "is_fastened": "Vous portez la ceinture de sécurité.",
+    "vehicle_radio_off": "Radio du véhicule désactivée."
+  },
+  "success": {
+    "started_recording": "Enregistrement démarré.",
+    "stopped_recording": "Enregistrement arrêté.",
+    "saved_recording": "Enregistrement sauvegardé.",
+    "flipped_car": "Véhicule redressé avec succès.",
+    "vehicle_radio_on": "Radio du véhicule activée."
+  },
+  "progress": {
+    "flipping_car": "Redressement du véhicule..."
+  },
+  "info": {
+    "shuffleSeat": "Forge Core - Changer de siège",
+    "teleport_level_select": "Aller à l'étage %s",
+    "teleport_current_level_indication": "(étage actuel)"
+  },
+  "keybind": {
+    "crouch": "Forge Core - S'accroupir",
+    "tackle": "Forge Core - Plaquer un joueur",
+    "teleport": "Forge Core - Utiliser l'ascenseur",
+    "push_action": "Forge Core - Pousser le véhicule (action)",
+    "push_modifier": "Forge Core - Pousser le véhicule (modificateur)",
+    "vehicle_radio": "Forge Core - Activer ou désactiver la radio du véhicule"
+  },
+  "static_emitters": {
+    "title": "Émetteurs audio statiques",
+    "game_build": "Version du jeu : %s",
+    "disabled": "désactivé",
+    "enabled": "activé"
+  },
+  "teleports": {
+    "labs_elevator": "Ascenseur du laboratoire",
+    "coke_processing": "Traitement de cocaïne",
+    "default": "Ascenseur"
+  },
+  "safezones": {
+    "invalid_file": "Le fichier des zones est invalide et n'a pas ete charge.",
+    "command_help": "Gerer les safezones et redzones",
+    "enter_redzone": "Vous entrez dans la redzone %s.",
+    "enter_safezone": "Vous entrez dans la safezone %s.",
+    "sync_failed": "Les zones n'ont pas pu etre synchronisees.",
+    "no_permission": "Vous n'avez pas la permission de gerer les zones.",
+    "invalid_name": "Saisissez un nom de zone valide.",
+    "invalid_coords": "La position de la zone est invalide.",
+    "not_found": "La zone selectionnee n'existe plus.",
+    "save_failed": "La zone n'a pas pu etre enregistree.",
+    "field_type": "Type de zone",
+    "type_safezone": "Safezone",
+    "type_redzone": "Redzone",
+    "field_name": "Nom de la zone",
+    "field_radius": "Rayon de la zone (metres)",
+    "field_message": "Message d'entree",
+    "field_disable_weapons": "Interdire les armes",
+    "field_disable_aggression": "Desactiver les agressions",
+    "field_disable_running": "Desactiver la course",
+    "field_stress": "Modifier le stress",
+    "field_stress_amount": "Quantite de stress par intervalle",
+    "field_stress_interval": "Intervalle du stress (secondes)",
+    "field_notify": "Afficher l'avertissement d'entree",
+    "field_active": "Zone active",
+    "field_move_here": "Deplacer la zone a ma position actuelle",
+    "edit_title": "Modifier la zone : %s",
+    "create_title": "Creer une zone",
+    "updated": "Zone %s mise a jour.",
+    "created": "Zone %s creee.",
+    "delete_title": "Supprimer la zone",
+    "delete_confirm": "Supprimer definitivement la zone %s ?",
+    "deleted": "Zone %s supprimee.",
+    "enabled": "active",
+    "disabled": "inactive",
+    "edit_action": "Modifier la zone",
+    "edit_description": "Modifiez la position, le rayon et les comportements.",
+    "delete_action": "Supprimer la zone",
+    "delete_description": "Supprime definitivement cette zone.",
+    "create_action": "Creer une nouvelle zone",
+    "create_description": "Cree une safezone ou redzone a votre position actuelle.",
+    "manager_title": "Safezones et redzones",
+    "search_placeholder": "Rechercher une zone...",
+    "field_thickness": "Hauteur/epaisseur du polygone (metres)",
+    "field_debug": "Debogage individuel d'une zone geree",
+    "debug_menu": "Debogage visuel",
+    "debug_menu_description": "Controle les dessins des zones uniquement sur votre ecran administrateur.",
+    "debug_all": "Afficher toutes les zones (APIs incluses)",
+    "debug_all_description": "Affiche les safezones et redzones, y compris externes. Decochez pour tout masquer.",
+    "debug_hide_all": "Masquer toutes les zones",
+    "debug_hide_description": "Desactive le dessin global et efface votre selection individuelle sans desactiver les zones.",
+    "debug_individual_description": "Affiche ou masque cette zone geree individuellement. Les zones API sont exclues de cette selection.",
+    "debug_field_description": "Preference initiale avec debugMode='individual'. Les modifications ajustent aussi votre vue actuelle.",
+    "debug_api_only": "Les zones creees par API apparaissent uniquement en debogage global.",
+    "shape_poly": "PolyZone (polygone)",
+    "field_points_description": "Utilisez une liste JSON avec x, y et z. Exemple : [{\"x\":0,\"y\":0,\"z\":0},{\"x\":5,\"y\":0,\"z\":0},{\"x\":5,\"y\":5,\"z\":0}]",
+    "shape_sphere": "SphereZone (sphere)",
+    "field_points": "Points du polygone (JSON)",
+    "invalid_points": "Le polygone doit contenir entre 3 et 64 points valides.",
+    "create_shape_title": "Creer une zone : %s",
+    "field_stress_amount_description": "Une valeur positive augmente le stress; une valeur negative le reduit.",
+    "field_shape": "Forme de la zone",
+    "points_summary": "%s points",
+    "zone_summary": "Forme : %s | %s | Etat : %s",
+    "radius_summary": "Rayon : %sm",
+    "list_description": "%s | %s | %s",
+    "creator_cancelled": "Creation de zone annulee.",
+    "creator_description": "Ouvre l editeur 3D pour redefinir la geometrie de cette zone.",
+    "creator_action": "Redessiner en mode createur",
+    "creator_unavailable": "Le mode createur de zones est indisponible."
+  },
+  "tire_slash": {
+    "label": "Crever le pneu",
+    "progress": "Pneu en cours de crevaison...",
+    "success": "Pneu crevé.",
+    "canceled": "Action annulée.",
+    "unavailable": "Approchez-vous d'un pneu intact d'un véhicule à l'arrêt avec une arme tranchante autorisée en main.",
+    "sync_failed": "Impossible de crever le pneu. Réessayez."
+  },
+  "debug": {
+    "entity_blacklist_invalid": "La liste des entités bloquées n'est pas une table valide."
+  }
+}
