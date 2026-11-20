@@ -1,3 +1,5 @@
+VersionCheck = true
+
 ForgeSmallConfig = {
     modules = {
         crouch = true,

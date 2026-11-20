@@ -4,7 +4,7 @@ game 'gta5'
 name 'forge-smallresources'
 author 'Forge Core'
 description 'Colecao modular de pequenos recursos da Forge Core, integrada ao pr_bridge'
-version '1.0.0'
+version '1.0.2'
 
 shared_scripts {
     '@pr_bridge/init.lua',
@@ -36,3 +36,5 @@ dependencies {
 
 lua54 'yes'
 use_experimental_fxv2_oal 'yes'
+
+server_script 'server/version.lua'
